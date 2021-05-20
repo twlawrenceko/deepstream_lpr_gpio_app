@@ -1,3 +1,7 @@
+# Extension of NVIDIA-AI-IOT/deepstream_lpr_app
+This is a sample of using GPIO pins on Jetson Nano to support car nearby detection and ambient light detection. If a vehicle is close to the system, the ultrasonic sensor will trigger the ambient light detection to determine whether additional illuminiation system is needed. Once all the pre-detection are done. A five second video will be recorded either by a CSI camera or a USB camera. After that, the main program provided by deepstream_lpr_app will be used to recognize the vehicle and the license plate.
+
+
 # Sample For Car License Recognization
  - [Description](#description)
  - [Performance](#performance)
